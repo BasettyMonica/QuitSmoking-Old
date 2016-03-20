@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUIT!! It&apos;s Not Too Late
+START"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00aaff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="S= SET A QUIT DATE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00aa66"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="-Choose a date within next 2 weeks, so that you have enough time to prepare without losing your motivation to quit."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="T=TELL FAMILY, FRIENDS THAT YOU PLAN TO QUIT"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00aa66"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Let your family and friends know about your plan to quit and tell them you need their support."
+android:textStyle="bold" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:text="A=ANTICIPATE AND PLAN FOR CHALLENGES YOU FACE WHILE QUITING"
+            android:textColor="#00aa66"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="-Plan yourself to cope up with nicotine withdrawal effects and cigarette cravings."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00aa66"
+            android:textStyle="bold"
+            android:text="R=REMOVE CIGARS, ASHTRAYS AND MATCHES FROM YOUR HOME,CAR AND WORK."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="-Wash your clothes and freshen up anything that smells like smoke"
+android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="T=TALK TO DOCTOR ABOUT GETTING HELP TO QUIT"
+            android:textColor="#00aa66"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="fill_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Your doctor can prescribe you medication to cope up with withdrawal effects and you may also use nicotine patches, nicotine lozenges, nicotine gum."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</ScrollView>

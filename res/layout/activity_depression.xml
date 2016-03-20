@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.quitsmokingapp.Depression" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00bb77"
+            android:textStyle="bold"
+        android:layout_marginTop="21dp"
+        android:text="FEELING DEPRESSED???HERE&apos;S A WAY TO COME OUT OF IT!!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="19dp"
+          android:textStyle="bold"
+        android:text="Find a substitute reward to smoking. Deal with your emotions. Call your support buddy. Use positive self-talk. Don’t cut yourself down; build yourself up. Don’t allow a self-defeatist attitude (I’m no good, I can’t do this). This can lead to a decreased sense of control and a drop in self-esteem. Think of success, not failure! It’s normal to feel sad, angry, or confused in the first few smoke-free weeks. These feelings will pass but If the depression does not appear to be going away, take it seriously and consult your doctor."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
